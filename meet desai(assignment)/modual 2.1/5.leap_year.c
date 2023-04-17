@@ -1,11 +1,11 @@
-#include<stdio.h>
+#include<stdio.h>// pre processor
 int main()
 {
-	int year;
+	int year;//variables to store value
 	printf("enter a year");
 	scanf("%d",&year);
 	
-	if (year%4==0)
+	if (year%4==0)// formula 
 	{
 		printf("leap year");
 	}

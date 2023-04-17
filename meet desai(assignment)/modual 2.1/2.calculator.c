@@ -22,16 +22,16 @@ int main()
 	switch(ch)
 	{
 		case'+':
-			printf("total %f\n",number1+number2);
+			printf("total %f\n",number1+number2);//addtion
 			break;
 		case'-':
-			printf("total %f\n",number1-number2);
+			printf("total %f\n",number1-number2);//subsraction
 			break;
 		case'*':
-			printf("total %f\n",number1*number2);
+			printf("total %f\n",number1*number2);//multiplication
 			break;
 		case'/':
-			printf("total %f\n",number1/number2);
+			printf("total %f\n",number1/number2);//division
 			break;
 		default:
 		printf("you entered unvalid number\n");			

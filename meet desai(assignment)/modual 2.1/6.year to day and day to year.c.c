@@ -2,16 +2,17 @@
 
 
 
-#include<stdio.h>
+#include<stdio.h>// pre processor
 int main()
 {
-	int num;
-	float ans,i;
+	int num; //variables 
+	float ans,i; // variables 
 	
 	 printf("press 1. convert years in
 	 to days\n");
 	 printf("press 2. convert days into years\n");
 	 scanf("%d",&num);
+	 // if else conditions
 	 
 	 if(num==1)
 	 {
